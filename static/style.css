@@ -1,0 +1,104 @@
+/* Reset & base styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container card */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+/* Headings */
+.container h2 {
+    margin-bottom: 25px;
+    color: #1565c0;
+    font-size: 26px;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"], input[type="file"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #1976d2;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+
+/* Links */
+a {
+    display: block;
+    margin-top: 15px;
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0d47a1;
+}
+
+/* File list styling */
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #f0f4ff;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 6px;
+    text-align: left;
+}
+
+ul li a {
+    color: #0d47a1;
+    word-break: break-word;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
